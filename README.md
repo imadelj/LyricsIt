@@ -3,8 +3,8 @@
 A music lyrics app for searching songs by artist and title and viewing lyrics, powered by the Genius Song Lyrics API through RapidAPI.
 
 <img width="826" height="517" alt="LyricsIT Commercial Thumbnail" src="https://github.com/user-attachments/assets/ae637708-9151-41b8-8699-8da2d223d3ce" />
-
-<img width="1280" height="653" alt="GIF Comercial Of LyricsIt" src="https://github.com/user-attachments/assets/5d9bb9ac-005f-4002-81f2-f5879cd25e72" />
+<br /><br />
+<img width="826" alt="GIF Comercial Of LyricsIt" src="https://github.com/user-attachments/assets/5d9bb9ac-005f-4002-81f2-f5879cd25e72" />
 
 
 ## Getting started
