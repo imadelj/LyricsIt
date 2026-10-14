@@ -12,7 +12,7 @@ function SongSearchForm({
   return (
     <div className="flex flex-col md:flex-row gap-3">
       <input
-        className="text-slate-300 bg-slate-950 py-3 px-6 rounded-full border border-slate-600"
+        className="text-slate-300 bg-slate-950 py-3 px-6 rounded-full border border-slate-600 outline-none transition-colors duration-200 focus:border-fuchsia-300/70 focus:ring-2 focus:ring-rose-300/25"
         type="text"
         name="artist_name"
         id="artist_name"
@@ -21,7 +21,7 @@ function SongSearchForm({
         onChange={(event) => onArtistNameChange(event.target.value)}
       />
       <input
-        className="text-slate-300 bg-slate-950 py-3 px-6 rounded-full border border-slate-600"
+        className="text-slate-300 bg-slate-950 py-3 px-6 rounded-full border border-slate-600 outline-none transition-colors duration-200 focus:border-fuchsia-300/70 focus:ring-2 focus:ring-rose-300/25"
         type="text"
         name="song_name"
         id="song_name"
