@@ -2,6 +2,9 @@
 
 A music lyrics app for searching songs by artist and title and viewing lyrics, powered by the Genius Song Lyrics API through RapidAPI.
 
+<img width="826" height="517" alt="LyricsIT Commercial Thumbnail" src="https://github.com/user-attachments/assets/ae637708-9151-41b8-8699-8da2d223d3ce" />
+
+
 ## Getting started
 
 ### Requirements
