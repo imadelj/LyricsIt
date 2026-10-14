@@ -64,7 +64,7 @@ function App() {
   );
 
   return (
-    <main className="container flex flex-col items-center gap-10 p-20 md:p-40 flex-wrap">
+    <main className="container flex flex-col items-center gap-10 px-4 py-8 sm:px-6 md:px-8 md:py-12">
       <AppLogo />
       <SongSearchForm
         artistName={artistName}

@@ -2,19 +2,24 @@ import { Skeleton } from "@mui/material";
 
 function SongSearchResults({ searchStatus, lyricsStatus, thumbnailUrl, lyricsHtml }) {
   return (
-    <section className="mt-2 text-slate-300 flex flex-col gap-5" aria-live="polite">
+    <section className="mt-2 flex w-80 max-w-full shrink-0 flex-col gap-5 text-slate-300" aria-live="polite">
       {searchStatus === "loading" && (
         <Skeleton
           sx={{ bgcolor: "#ffffff30" }}
+          className="w-full"
           variant="rounded"
-          height={250}
-          width={250}
+          height={288}
+          width="100%"
           animation="pulse"
         />
       )}
       {searchStatus === "error" && "Error getting image thumbnail !"}
       {searchStatus === "success" && thumbnailUrl && (
-        <img className="thumbnail_image" src={thumbnailUrl} alt="Song artwork" />
+        <img
+          className="h-72 w-full rounded-xl object-cover"
+          src={thumbnailUrl}
+          alt="Song artwork"
+        />
       )}
       {lyricsStatus === "loading" && (
         <>
