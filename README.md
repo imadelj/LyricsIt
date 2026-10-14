@@ -10,7 +10,7 @@ A music lyrics app for searching songs by artist and title and viewing lyrics, p
 ### Requirements
 
 - Node.js and npm
-- A RapidAPI key with access to the [Genius Song Lyrics API](https://rapidapi.com/hub)
+- A RapidAPI key with access to the [RapidAPI Hub](https://rapidapi.com/hub)
 
 ### Setup
 
