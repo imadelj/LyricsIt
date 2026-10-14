@@ -30,7 +30,7 @@ function SongSearchForm({
         onChange={(event) => onSongNameChange(event.target.value)}
       />
       <button
-        className="border border-amber-300 rounded-full py-3 px-6 bg-gradient-to-r from-yellow-300 to-amber-500 hover:bg-gradient-to-l"
+        className="border border-pink-200 rounded-full py-3 px-6 bg-gradient-to-r from-fuchsia-300 to-rose-300 hover:bg-gradient-to-l"
         onClick={onSearch}
         type="button"
       >
